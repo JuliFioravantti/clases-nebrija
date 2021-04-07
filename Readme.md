@@ -1,6 +1,6 @@
 # Periodismo de Datos II
 
-Estos son mis apuntes sobre Periodismo de Datos II.
+Aquí desarrollaré mis actividades dirigidas para la asignatura de Periodismo de Datos II.
 
-* Poner un texto entre * sale en *cursiva*
-* Para ponerlo en **negrita** se pone con dos **
+En la primera actividad comento estos [gráficos](https://www.elmundo.es/ciencia-y-salud/salud/2020/03/02/5e5cd4ebfc6c83632e8b4644.html) de ElMundo.es, con los datos actualizados de la crisis del coronavirus. 
+En la segunda actividad comento una [visualización](https://www.eldiario.es/sociedad/distanciamiento-social-grafico-contagios-quedarse_1_1104383.html) de elDiario.es acerca del distanciamiento social, publicado en marzo de 2020. 
