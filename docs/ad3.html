@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Actividad Dirigida 3</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/foto.PNG" alt="" /></span>
+							<h1 id="title">Julián López</h1>
+							<p>Periodista digital</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+								
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://twitter.com/Fioravantti11" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.facebook.com/julian.lopezfioravantti" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+		
+		
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt">Práctica 3. Visualización de datos</h2>
+							</header>
+              
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+<p>Este gráfico representa la cantidad de viajeros que tuvo España en total durante los años 2019 y 2020, 
+centrando la atención en la clara diferencia tras la pandemia del covid-19.</p>
+
+<p>Se puede observar que, a partir de verano de 2020, que es el periodo posterior al Estado de Alarma con toda la ciudadanía encerrada en casa, 
+los viajes tienen el mismo patrón con respecto al año 2019, aunque presentan números muchísimo más bajos debido a la situación.</p>
+
+<iframe title="Viajeros en España en 2019 y 2020" aria-label="Interactive line chart" id="datawrapper-chart-OQrMf" src="https://datawrapper.dwcdn.net/OQrMf/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="515"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+</script>
+              
+<p>Este conjunto de datos los he sacado del INE y los descargué manualmente debido a que todos los intentos que realicé para descargarlos con la terminal cygwin no funcionaron.</p>
+<img src="images/cygwin1.PNG" alt="Captura de pantalla de la terminal cygwin">
+<p>En esta primera imagen de la terminal observo los documentos que tengo en la carpeta del curso, y en ella se encuentra “datosviajeros.csv”, 
+el archivo en cuestión con los datos del gráfico. Con el comando “file” observo la información del archivo, y más adelante saco las primeras y últimas diez líneas. 
+Ahí se puede ver que no reconoce los acentos, por lo que cambié el lenguaje.</p>
+<img src="images/cygwin2.PNG" alt="Captura de pantalla de la terminal cygwin">
+<p>Con el comando “iconv” cambié el fichero para que tuviese el lenguaje UTF-8, y pasé a llamar al archivo como “datosutf8”. 
+Con otro “ls” confirmo que están los dos ficheros en la carpeta y vuelvo a ejecutar el comando “file” y a sacar las primeras y últimas diez líneas.</p>
+<img src="images/cygwin3.PNG" alt="Captura de pantalla de la terminal cygwin">
+<p>También ejecuté el comando “du -sh” al fichero para ver que ocupa 4.0K y el comando “wc  -l” para ver que el archivo contiene 27 líneas. 
+Por último, realicé un “cat” para mostrar al completo todo el contenido del archivo en la terminal de cygwin.</p>
+<img src="images/cygwin4.PNG" alt="Captura de pantalla de la terminal cygwin">
+
+						</div>
+					</section>
+
+</body>
+
+</html>
