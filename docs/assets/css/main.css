@@ -72,6 +72,11 @@ input, select, textarea {
 	appearance: none;
 }
 
+#piedefoto {
+        font-size: 16px;
+	font-style: italic;
+}
+
 /* Basic */
 
 	html {
@@ -1791,10 +1796,6 @@ input, select, textarea {
 				width: auto;
 			}
 
-#piedefoto {
-        font-size: 16px;
-	font-style: italic;
-}
 
 /* List */
 
